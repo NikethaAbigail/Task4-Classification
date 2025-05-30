@@ -43,17 +43,6 @@ Evaluate the model using:
   where \( z \) is the linear combination of features and weights.
   This probability is used to classify instances by comparing it to a threshold (default is 0.5).
 
-## Implementation
-
-The code is provided in **task4.ipynb**. Key steps include:
-- Loading and preprocessing the dataset (dropping irrelevant columns like `id`, encoding the target variable).
-- Handling missing values using `SimpleImputer` with mean strategy.
-- Splitting data into training and testing sets.
-- Scaling features using `StandardScaler`.
-- Training a logistic regression model and making predictions.
-- Evaluating the model with standard metrics and a custom threshold of 0.3.
-- Visualizing results (optional: ROC curve plotting).
-
 ## Results
 
 - The model is evaluated using a **confusion matrix**, **classification report**, and **ROC-AUC score**.
