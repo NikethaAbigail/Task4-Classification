@@ -35,12 +35,6 @@ Evaluate the model using:
 ### 5. Tune Threshold and Explain Sigmoid Function
 - A custom threshold (e.g., **0.3**) is applied to the predicted probabilities to adjust the balance between precision and recall.
 - The **sigmoid function** in logistic regression maps input features to a probability between 0 and 1:
-
-  \[
-  \sigma(z) = \frac{1}{1 + e^{-z}}
-  \]
-
-  where \( z \) is the linear combination of features and weights.
   This probability is used to classify instances by comparing it to a threshold (default is 0.5).
 
 ## Results
